@@ -4,9 +4,8 @@ import Title from "./Title";
 const About = () => {
   return (
     <section className="section" id="about">
-      above title imported in About.js
       <Title title="about" subTitle="us" />
-      below title imported in About.js
+
       <div className="section-center about-center">
         <div className="about-img">
           <img src={aboutImg} className="about-photo" alt="awesome beach" />
