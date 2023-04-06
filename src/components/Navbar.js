@@ -3,7 +3,7 @@ import { pageLinks, socialLinks } from "../data";
 import PageLinks from "./PageLinks";
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar1">
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} className="nav-logo" alt="backroads" />
@@ -23,8 +23,7 @@ const Navbar = () => {
                   href={href}
                   target="_blank"
                   rel="noreferrer"
-                  className="nav-icon"
-                >
+                  className="nav-icon">
                   <i className={icon}></i>
                 </a>
               </li>

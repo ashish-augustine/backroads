@@ -451,7 +451,7 @@ Navbar
 */
 /* add :not(.nav-logo) to img */
 
-.navbar {
+.navbar1 {
   position: fixed;
   top: 0;
   left: 0;
@@ -558,6 +558,3 @@ Navbar
     color: var(--clr-primary-8);
   }
 }
-/* set hero to 
-min-height:calc(100vh - 62px);
-*/
