@@ -11,10 +11,10 @@ function App() {
     <React.Fragment>
       <Hero />
       <About />
-      <Tours />
       <Services />
+      <Tours />
       <Footer />
-      {/* For Hero, About, Tours, Services & Footer the order matters, because nothing told specifically in CSS!!! */}
+      {/* For Hero, About, Services, Tours & Footer the order matters, because nothing told specifically in CSS!!! */}
 
       <Navbar />
       {/*Navbar component declaration has <nav className="navbar1"> and it is defined in index.css Line 454 to align TOP */}
